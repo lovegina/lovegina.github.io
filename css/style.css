@@ -1,0 +1,54 @@
+body {
+	font-family: 'Yrsa', serif;
+}
+
+img {
+	width: 100%;
+}
+
+
+.website {
+	background-color: #fff1e6; 
+}
+.picture-section {
+	box-shadow: 6px -6px 42px -10px rgba(97,86,86,1);
+}
+.text-center {
+	box-shadow: 6px -6px 42px -10px rgba(97,86,86,1);
+}
+.more-text {
+	box-shadow: 6px -6px 42px -10px rgba(97,86,86,1);
+}
+.navbar-default {
+	background-color: #990000;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+h1,h2 {
+	font-family: 'Yrsa', serif; 
+}
+
+.main-picture {
+	padding-bottom: 25px
+}
+
+h1,.intro {
+	text-align: center;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: white;
+	background-color: #990000;
+}
+
+.img-circle {
+	margin-top: 50px;
+}
