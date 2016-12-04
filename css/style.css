@@ -1,15 +1,26 @@
 body {
 	font-family: 'Yrsa', serif;
+	
+		background-image: url("../img/food.jpg");
+	height:100;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
 }
 
 img {
 	width: 100%;
 }
 
-
-.website {
-	background-color: #fff1e6; 
+.first-section {
+	color: beige;
 }
+
+.about-us-section{
+	background-color: #1f1f2e;
+	padding-top: 15px;
+}
+
 .picture-section {
 	box-shadow: 6px -6px 42px -10px rgba(97,86,86,1);
 }
@@ -29,7 +40,18 @@ h1,h2 {
 }
 
 .main-picture {
-	padding-bottom: 25px
+	padding-bottom: 20px
+}
+
+.card {
+	background-color: beige;
+}
+
+.card-block {
+	padding-top: 0.1px;
+}
+.card-title {
+	padding-top: 10px;
 }
 
 h1,.intro {
@@ -39,12 +61,38 @@ h1,.intro {
 	color: white;
 }
 
+.vogue {
+	font-family: 'Bodoni';
+	text-shadow: gray;	
+	font-size: 25px;
+}
+
+.timeout {
+	font-family: 'Franklin Gothic';
+	font-size: 35px;
+	-webkit-text-stroke: 0.3px white;
+}
+
+.zagat {
+	font-family: 'Helvetica Black';
+	color: white;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
 .navbar-default .navbar-nav>li>a {
 	color: white;
 }
 
 .navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #990000;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:fadeInLeft {
 	color: white;
 	background-color: #990000;
 }
@@ -52,3 +100,12 @@ h1,.intro {
 .img-circle {
 	margin-top: 50px;
 }
+
+.image-background{
+	background-image: url("../img/food.jpg");
+	height:100;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+}
+
